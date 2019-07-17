@@ -63,3 +63,5 @@ nb-configuration.xml
 /.gitignore
 /singleton/
 /builder/
+/Prototype/
+/prototype/
