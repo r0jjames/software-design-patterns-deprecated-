@@ -1,4 +1,4 @@
-package singleton;
+package creational_patterns.singleton;
 
 public class DbSingletonDemo {
 

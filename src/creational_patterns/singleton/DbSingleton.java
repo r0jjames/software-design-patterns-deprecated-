@@ -1,4 +1,4 @@
-package singleton;
+package creational_patterns.singleton;
 
 public class DbSingleton {
 	private static volatile DbSingleton instance = null;

@@ -1,4 +1,4 @@
-package builder.Pizza;
+package creational_patterns.builder.Pizza;
 
 public class HawaiianPizzaBuilder extends PizzaBuilder {
 

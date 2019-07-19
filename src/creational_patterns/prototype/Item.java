@@ -1,4 +1,4 @@
-package prototype;
+package creational_patterns.prototype;
 
 public abstract class Item implements Cloneable {
 	

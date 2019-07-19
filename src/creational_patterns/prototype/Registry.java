@@ -1,4 +1,4 @@
-package prototype;
+package creational_patterns.prototype;
 
 import java.util.HashMap;
 import java.util.Map;

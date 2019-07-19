@@ -1,4 +1,4 @@
-package builder.Lunch;
+package creational_patterns.builder.Lunch;
 
 public class BuilderLunchOrderDemo {
 
