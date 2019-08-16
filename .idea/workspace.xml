@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd605a76-0f03-4f81-83a4-5b36a2a72d08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/InventorySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/Iterator/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/SecurityProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +28,9 @@
     <session id="-131476835">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -29,99 +38,114 @@
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="44" />
+          <entry key="java" value="60" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="60" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="5279" />
+          <entry key="java" value="6869" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5279" />
+          <entry key="JAVA" value="6869" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/InventorySystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Catalog.java">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +156,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -142,10 +167,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/adapter/AdaptorDemo.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/AdapterDemo.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/adapter/AdapterDemo.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Shape.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Color.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Blue.java" />
@@ -185,6 +207,17 @@
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/InventorySystem.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/Catalog.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightDemo.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/MyService.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/MyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/SecurityProxy.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java" />
       </list>
     </option>
   </component>
@@ -194,17 +227,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1550" />
-    <option name="y" value="-140" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1608" />
+    <option name="y" value="-150" />
+    <option name="width" value="1203" />
+    <option name="height" value="881" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,28 +255,27 @@
               <item name="software-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="software-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="software-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="software-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="chain_of_responsibility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565755607265" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dss-web" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565938842135" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../microservices" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -259,26 +292,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlyweightDemo">
-    <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeDemo" />
+  <component name="RunManager" selected="Application.ChainOfResponsibilityDemo">
+    <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral_patterns.chain_of_responsibility.ChainOfResponsibilityDemo" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompositeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.composite.CompositeDemo" />
-      <module name="software-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_patterns.composite.*" />
+          <option name="PATTERN" value="behavioral_patterns.chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,20 +345,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.proxy.ProxyDemo" />
+      <module name="software-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural_patterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BridgeDemo" />
-      <item itemvalue="Application.CompositeDemo" />
       <item itemvalue="Application.DecoratorDemo" />
       <item itemvalue="Application.FacadeDemo" />
       <item itemvalue="Application.FlyweightDemo" />
+      <item itemvalue="Application.ProxyDemo" />
+      <item itemvalue="Application.ChainOfResponsibilityDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsibilityDemo" />
+        <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.FlyweightDemo" />
         <item itemvalue="Application.FacadeDemo" />
         <item itemvalue="Application.DecoratorDemo" />
-        <item itemvalue="Application.CompositeDemo" />
-        <item itemvalue="Application.BridgeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -359,18 +392,19 @@
       <workItem from="1565538546822" duration="3213000" />
       <workItem from="1565630444906" duration="49000" />
       <workItem from="1565695382887" duration="678000" />
-      <workItem from="1565752494786" duration="3715000" />
+      <workItem from="1565752494786" duration="9624000" />
+      <workItem from="1565870941762" duration="4352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28109000" />
+    <option name="totallyTimeSpent" value="38370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-320" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41536865" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33852544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +434,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23200613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,8 +442,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22544283" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41487604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,41 +471,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/DbSingletonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/AdapterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Green.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -680,12 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,10 +693,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/InventorySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -714,50 +731,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/InventorySystem.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/SecurityProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="166">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/MyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/Iterator/IteratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Catalog.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
