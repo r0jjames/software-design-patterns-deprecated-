@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd605a76-0f03-4f81-83a4-5b36a2a72d08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/Iterator/IteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/SecurityProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,27 +35,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="60" />
+          <entry key="class" value="2" />
+          <entry key="java" value="64" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="64" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6869" />
+          <entry key="java" value="7247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6869" />
+          <entry key="JAVA" value="7247" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -71,81 +63,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Light.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,10 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/adapter/AdapterDemo.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Shape.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Color.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Blue.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Square.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Circle.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Green.java" />
@@ -212,12 +166,16 @@
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/ProxyDemo.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/SecurityProxy.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Request.java" />
-        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Handler.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/Director.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/CEO.java" />
         <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/ChainOfResponsibilityDemo.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/command/Task.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/command/Light.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_patterns/command/Command.java" />
       </list>
     </option>
   </component>
@@ -262,7 +220,7 @@
               <item name="software-design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="chain_of_responsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565938842135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565940816047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../microservices" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChainOfResponsibilityDemo">
+  <component name="RunManager" selected="Application.CommandDemo">
     <configuration name="ChainOfResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral_patterns.chain_of_responsibility.ChainOfResponsibilityDemo" />
       <module name="software-design-patterns" />
@@ -306,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.decorator.DecoratorDemo" />
+    <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral_patterns.command.CommandDemo" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.decorator.*" />
+          <option name="PATTERN" value="behavioral_patterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecoratorDemo" />
       <item itemvalue="Application.FacadeDemo" />
       <item itemvalue="Application.FlyweightDemo" />
       <item itemvalue="Application.ProxyDemo" />
       <item itemvalue="Application.ChainOfResponsibilityDemo" />
+      <item itemvalue="Application.CommandDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandDemo" />
         <item itemvalue="Application.ChainOfResponsibilityDemo" />
         <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.FlyweightDemo" />
         <item itemvalue="Application.FacadeDemo" />
-        <item itemvalue="Application.DecoratorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -393,15 +351,15 @@
       <workItem from="1565630444906" duration="49000" />
       <workItem from="1565695382887" duration="678000" />
       <workItem from="1565752494786" duration="9624000" />
-      <workItem from="1565870941762" duration="4352000" />
+      <workItem from="1565870941762" duration="6094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38370000" />
+    <option name="totallyTimeSpent" value="40112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-320" width="1936" height="1096" extended-state="7" />
+    <frame x="1358" y="-320" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
@@ -471,34 +429,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Blue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Detail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -771,20 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/VP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -841,6 +757,58 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/chain_of_responsibility/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Softwares/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="100" column="63" lean-forward="true" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/CommandDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
